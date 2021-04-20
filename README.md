@@ -20,7 +20,7 @@
 
 This is a demo repository to show [DeepSource][_deepsource]'s [Docker analyzer][_docs] integration.
 
-[![DeepSource](https://static.deepsource.io/deepsource-badge-light-mini.svg)](https://deepsource.io/gh/deepsourcelabs/demo-docker/?ref=repository-badge)
+[![DeepSource](https://deepsource.io/gh/deepsourcelabs/demo-docker.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/deepsourcelabs/demo-docker/?ref=repository-badge)
 
 ## Read more
 
