@@ -26,6 +26,7 @@ RUN alias server_uptime='ssh $host 'uptime -p''
 RUN PYTHONPATH ="/usr/share/" cd /home/postgres &; sudo python3 -m pip install pip && sudo python3 -m pip install matplotlib pandas setuptools
 RUN git clone https://github.com/someorg/somepackage.git
 RUN make
+# skipcq: DOK-DL3020
 ADD ./a.out /app
 
 # Note: The official Debian and Ubuntu images automatically ``apt-get clean``
